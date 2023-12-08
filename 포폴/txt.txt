@@ -1,0 +1,77 @@
+        <section id="section2">
+            <div class="room" data-67000="top:100%" data-67500="top:0%" data-81000="left:0%;" data-83000="left:-120%">
+                <div class="weather" data-70500="background:rgba(0,0,0,1)" data-72000="background:rgba(140, 201, 220,1)"
+                    data-75000="background:rgba(140, 201, 220,1)" data-77000="background:rgba(116,82,95,1)">
+
+                </div>
+                <!--weather-->
+                <div class="bath" data-75000="background:rgba(224, 74, 109,1)"
+                    data-77000="background:rgba(193,226,236,1)">
+                </div>
+                <!--bed-->
+                <div class="character">
+
+                    <div class="tfw" data-79000="top:-100%" data-80000="top:26%">
+                        <img src="assets/img/tfw-01.png" alt="tfw">
+                    </div>
+                </div>
+                <!--people-->
+
+                <div class="shwogur2000" data-67000="font-size:0vw" data-69000="font-size:8vw">
+                    <a href="mailto:leeno0404@naver.com">leeno0404@</a>
+                </div>
+                <div class="navercom" data-67000="font-size:0vw;" data-69000="font-size:8vw;">
+                    <a href="mailto:leeno0404@naver.com">naver.com</a>
+                </div>
+                <div class="send" data-67000="top:-50%" data-69000="top:80%">
+
+                    <div class="text_send">
+                        <a href="">
+                            <p>do you have any</p>
+                            <div class="text_box">
+                                <section class="text_slide">
+                                    <span class="slidetext">question?</span>
+                                    <span class="slidetext">ideia?</span>
+                                    <span class="slidetext">proposal?</span>
+                                    <span class="slidetext">project?</span>
+                                </section>
+                            </div>
+                            <span>send me a e-mail</span>
+                        </a>
+                    </div>
+                </div>
+                <!--send-->
+                <!-- <div class="send_background1" data-70000="left:100%" data-85000="left:-100%">
+                    <img src="assets/img/red.png" alt="r1">
+                </div> -->
+                <!-- 별 -->
+                <div class="send_background1" data-69000="left:100%" data-83000="left:-120%" style="top: 15%;">
+                    <span style="display: inline-block; font-size: 8vw;">⭐️</span>
+                </div>
+                <div class="send_background1" data-69500="left:100%" data-83000="left:-120%" style="top: 60%;">
+                    <span style="display: inline-block; font-size: 10vw;">⭐️</span>
+                </div>
+                <div class="send_background1" data-73000="left:100%" data-83000="left:-120%" style="top: 35%;">
+                    <span style="display: inline-block; font-size: 12vw;">⭐️</span>
+                </div>
+                <!-- 외계인 -->
+                <!-- <div class="send_background2" data-71000="left:100%" data-83000="left:-120%" style="top: 30%;">
+                    <span style="display: inline-block; font-size: 15vw;">👾</span>
+                </div> -->
+                <!-- <div class="send_background2" data-73000="left:100%" data-83000="left:-120%" style="top: -5%;">
+                    <span style="display: inline-block; font-size: 15vw;">👾</span>
+                </div>
+                <div class="send_background2" data-73000="left:100%" data-83000="left:-120%" style="top: 50%;">
+                    <span style="display: inline-block; font-size: 15vw;">👾</span>
+                </div> -->
+                <div class="send_background3" data-74000="left:110%" data-78000="left:-110%" style="top: 50%;">
+                    <!-- <img src="assets/img/green.png" alt="g1"> -->
+                    <span style="display: inline-block; font-size: 20vw; transform: rotate(-45deg);">☄️</span>
+                </div>
+                <div class="send_background4" data-73000="left:110%" data-76000="left:-110%" style="top: -10%;">
+                    <!-- <img src="assets/img/green2.png" alt="g2"> -->
+                    <span style="display: inline-block; font-size: 20vw; transform: rotate(-45deg);">☄️</span>
+                </div>
+                <!--send_background-->
+            </div>
+        </section>
