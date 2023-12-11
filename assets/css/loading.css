@@ -35,7 +35,7 @@ html, body {
   left: 0;
   width: 30px;
   height: 30px;
-  background: #E04A6D;
+  background: #fff;
   -webkit-box-shadow: 112.5px 112.5px 20px #000;
           box-shadow: 112.5px 112.5px 20px #000;
   -webkit-animation: move 2s ease-in-out infinite both;
@@ -60,7 +60,7 @@ html, body {
   .ld_box:before {
     top: 100%;
     left: 0;
-    background: #aa3752;
+    background: #fff;
     -webkit-transform-origin: center top;
             transform-origin: center top;
     -webkit-transform: rotateX(-90deg);
@@ -68,7 +68,7 @@ html, body {
   .ld_box:after {
     top: 0;
     left: 100%;
-    background: #5e202f;
+    background: #fff;
     -webkit-transform-origin: center left;
             transform-origin: center left;
     -webkit-transform: rotateY(90deg);

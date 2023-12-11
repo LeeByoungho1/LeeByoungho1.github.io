@@ -71,7 +71,6 @@ $(window).on("scroll", function () {
   var scroll = $(window).scrollTop()
   var typingElement = $(".focustxt span").eq(0);
   var txt = "About"
-  console.log($(typingElement).width())
   typingElement.text("");
   if (scroll < 4200) {
     typingElement.text("A");
@@ -151,3 +150,4 @@ $(window).on("scroll", function () {
     typingElement.text("Contact");
   }
 })
+

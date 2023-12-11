@@ -17,6 +17,10 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
     <!-- 폰트어썸 -->
     <script src="https://kit.fontawesome.com/6b24e13a02.js" crossorigin="anonymous"></script>
+    <!-- lotties -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@1/dist/lottie-player.js"></script>
+
 </head>
 
 <body>
@@ -32,17 +36,17 @@
             <div class="mtxt1">
                 <!-- 이름 -->
                 <p class="f2 pos" style="width: 100%; text-align: center;"
-                    data-0="font-size:0px;opacity:0%;left:52%; top:20%; transform: translate(-50%. -50%)"
-                    data-1500="font-size:200px;opacity:100%;" data-15000="font-size:200px;opacity:100%;"
-                    data-16000="font-size:0px;opacity:0%;"><span class="f1 va">Lee </span>ByoungHo</p>
+                    data-0="font-size:0vw;opacity:0%;left:52%; top:20%; transform: translate(-50%. -50%)"
+                    data-1500="font-size:10vw;opacity:100%;" data-15000="font-size:10vw;opacity:100%;"
+                    data-16000="font-size:0vw;opacity:0%;"><span class="f1 va">Lee </span>ByoungHo</p>
 
                 <span class="f3 pos" style="text-align: right; line-height: 1vw;"
-                    data-1000="font-size:0vw;opacity:0%;left:100%; top:10%"
+                    data-1000="font-size:0vw;opacity:0%;left:100%; top:80%"
                     data-3000="font-size:1vw;opacity:100%;left:92%" data-15000="font-size:1vw;opacity:100%;left:92%"
-                    data-16000="font-size:0vw;opacity:0%;left:100%; top:10%">Folio<br>Vol.1 -&nbsp;&nbsp;</span>
-                <span class="f3 pos" data-1000="font-size:0vw;opacity:0%;left:0%; top:10%"
+                    data-16000="font-size:0vw;opacity:0%;left:100%;">Folio<br>Vol.1 -&nbsp;&nbsp;</span>
+                <span class="f3 pos" data-1000="font-size:0vw;opacity:0%;left:0%; top:80%"
                     data-3000="font-size:1vw;opacity:100%;left:11%" data-15000="font-size:1vw;opacity:100%;left:11%"
-                    data-16000="font-size:0vw;opacity:0%;left:0%; top:10%">Open for any<br>collaborations and
+                    data-16000="font-size:0vw;opacity:0%;left:0%;">Open for any<br>collaborations and
                     offers</span>
 
                 <p class="f2 pos"
@@ -51,7 +55,7 @@
                     data-16000="font-size:0vw;opacity:0%; ">Focus <span class="f1">on</span></p>
                 <div class="focustxt">
                     <div style="position: fixed; width: 8.1vw; height: 3.8vw; border-bottom: 2px solid #000;"
-                        data-3000="opacity:0%;left:56.3%; top:60%; transform:translate(-50%, -50%)"
+                        data-3000="opacity:0%;left:56.8%; top:60%; transform:translate(-50%, -50%)"
                         data-4000="opacity:100%;top:49.3%" data-6000="opacity:100%;top:49.3%"
                         data-7000="opacity:0%;top:40%"><span>About</span>
                     </div>
@@ -61,12 +65,12 @@
                         data-10000="opacity:0%;top:40%"><span>Works</span>
                     </div>
                     <div style="position: fixed; width: 5.8vw; height: 3.8vw; border-bottom: 2px solid #000;"
-                        data-9000="opacity:0%;left:55%; top:60%; transform:translate(-50%, -50%)"
+                        data-9000="opacity:0%;left:55.5%; top:60%; transform:translate(-50%, -50%)"
                         data-10000="opacity:100%;top:49.3%" data-12000="opacity:100%;top:49.3%"
                         data-13000="opacity:0%;top:40%"><span>Skill</span>
                     </div>
                     <div style="position: fixed; width: 10.6vw; height: 3.8vw; border-bottom: 2px solid #000;"
-                        data-12000="opacity:0%;left:57.5%; top:60%; transform:translate(-50%, -50%)"
+                        data-12000="opacity:0%;left:58%; top:60%; transform:translate(-50%, -50%)"
                         data-13000="opacity:100%;top:49.3%" data-15000="opacity:100%;top:49.3%"
                         data-16000="opacity:0%;top:40%"><span>Contact</span>
                     </div>
@@ -91,11 +95,15 @@
                         data-16000="opacity:0%;">Contact</span>
                 </div> -->
 
-                <video class="pos" autoplay loop
+                <!-- <video class="pos" autoplay loop
                     data-1000="height:0vh; left:50%; top:75%; transform:translate(-50%, -50%)" data-3000="height:30vh;"
                     data-15000="height:30vh;" data-16000="height:0vh;">
                     <source src="./assets/img/1.webm" type="video/webm">
-                </video>
+                </video> -->
+                <lottie-player id="welcomeAnimation" src="./assets/json/work.json" autoplay loop
+                    style="position: fixed;" data-1000="height:0vh; left:50%; top:65%; transform:translate(-50%, -50%)"
+                    data-3000="height:60vh;" data-15000="height:60vh;" data-16000="height:0vh;">
+                </lottie-player>
             </div>
 
             <!--섹션2-->
@@ -131,12 +139,12 @@
             <p class="f2" style="position: fixed; left: -50%; top: 8%; font-size: 5vw;" data-22000="left:-50%;"
                 data-24000="left:10%" data-27000="left:10%" data-29000="left:120%"><span class="f1 va">A</span>bout</p>
             <p class="f3"
-                style="width:24vw; position: fixed; left: -50%; top: 25%; font-size: 1.2vw; line-height: 1.7vw;"
-                data-22000="left:-50%" data-24000="left:10%" data-27000="left:10%" data-29000="left:120%">In the
-                game for over 5 years, I'm currently based in Ho Chi Minh city, working as an independent designer since
-                July, 2022. In the
-                game for over 5 years, I'm currently based in Ho Chi Minh city, working as an independent designer since
-                July, 2022.</p>
+                style="width:28vw; position: fixed; left: -50%; top: 25%; font-size: 1.2vw; line-height: 1.7vw;"
+                data-22000="left:-50%" data-24000="left:10%" data-27000="left:10%" data-29000="left:120%">무궁무진한 아이디어를
+                구현하는 과정은 정말 흥미로운 일입니다. 새로운 도전을 두려워하지 않는 프론트엔드 개발자로서, 저는 항상 새로운 기술과 도구를 배우고 적용하는 것을 즐깁니다.<br><br> '<span
+                    style="border-bottom: 2px solid #000; font-weight: bold;">Focus on</span>’은 특정
+                분야에 주력한다는 뜻을 담고 있습니다. 따라서 프론트엔드 개발자로서, 하나의 분야에 깊이 있게 주력하여 뛰어난 결과물을 만들어 회사에 실질적으로 도움이 되는 프론트엔드 개발자로 일하고
+                싶습니다."</p>
 
 
             <!-- 섹션3 -->
@@ -175,7 +183,8 @@
                 data-42000="width:40vw; left: 50%; top:15%" data-45000="width:60vw; left: 50%; top: -2.5%; opacity:0%">
                 <img width="100%" src="./assets/img/lolsite.png" alt="site1">
 
-                <a href="https://leebyoungho1.github.io/LoL" target="_blank" style="pointer-events: auto;">
+                <a href="https://leebyoungho1.github.io/LoL" target="_blank" data-41900="pointer-events: auto;"
+                    data-45000="pointer-events: none;">
                     <img src="./assets/img/siteLink3.png" alt="site1" class="img"
                         data-41000="width:6vw; left: 15%; top:58%; opacity:0%" data-42000="width:8vw; opacity:100%"
                         data-45000="width:12vw; opacity:0%">
@@ -278,9 +287,9 @@
                             class="f1 va">E</span>ventPromotion<br>Zigzag</h1>
                     <p class="f3" style="font-size: 1.2vw; line-height: 1.7vw;">
                         두 번째 이벤트 프로모션에서는
-                웹사이트를 개발하는 기본 구조를 익히고,
-                다양한 애니메이션 기술을 활용해 보며 프론트엔드 개발에 대한 기초를 다졌습니다. 특히, 스크롤 이벤트에 대한 이해를 향상시키면서 사용자와의 상호작용을 개선하는 방법을
-                습득했습니다.
+                        웹사이트를 개발하는 기본 구조를 익히고,
+                        다양한 애니메이션 기술을 활용해 보며 프론트엔드 개발에 대한 기초를 다졌습니다. 특히, 스크롤 이벤트에 대한 이해를 향상시키면서 사용자와의 상호작용을 개선하는 방법을
+                        습득했습니다.
                     </p>
                 </div>
             </div>
@@ -325,11 +334,13 @@
             <h1 class="f2" style="position: fixed;"
                 data-61000="font-size: 5vw; left: -25%; top:10%; line-height: 4.5vw;" data-63000="left: 20%;"
                 data-65000="left: 41%;" data-67000="left: 56.5%;" data-68000="left: 56.5%;" data-69000="left: 110%;">
-                <span class="f1">P</span>ortfolio</h1>
+                <span class="f1">P</span>ortfolio
+            </h1>
             <h1 class="f2" style="position: fixed;"
                 data-61000="font-size: 5vw; right: -10%; top:80%; line-height: 4.5vw;" data-63000="right: 20%;"
-                data-65000="right: 45%;" data-67000="right: 67%;" data-68000="right: 67%;"
-                data-69000="right: 100%;"><span class="f1">S</span>kill</h1>
+                data-65000="right: 45%;" data-67000="right: 67%;" data-68000="right: 67%;" data-69000="right: 100%;">
+                <span class="f1">S</span>kill
+            </h1>
 
             <div class="skillbox" data-65000="opacity: 0%; left: 50%; top:50%; transform: translate(-50%, -50%);"
                 data-66000="left: 28%; opacity:80%;" data-68000="left: 28%; opacity:80%;"
@@ -357,46 +368,73 @@
             </div>
             <div class="skillbox" data-63000="opacity: 0%; left: 50%; top:50%; transform: translate(-50%, -50%);"
                 data-64000="right: 20%; opacity:80%;" data-69000="right: 20%; opacity:80%;" data-70000="top:-20%;">
-                <img src="./assets/img/react.png" alt="logo">
+                <div style="position: absolute;
+                width: 6.5vw;
+                height: 6.5vw;
+                left: 50%;
+                top: 40%;
+                transform: translate(-50%, -50%); background-color: #fff; border-radius: 100%;">
+                    <lottie-player src="./assets/json/react.json" autoplay loop style="position: absolute;
+                    width: 90%;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);">
+                </lottie-player>
+                </div>
                 <p>React</p>
             </div>
-
-            <!-- Contact -->
-            <div class="contactbox" style="width: 100vw; height: 8.3vw;" data-71000="left:-110%" data-72000="left: 0%;">
-            </div>
-            <div class="contactbox" style="width: 100vw; height: 11.8vw;" data-71000="left:-110%; top:45%"
-                data-72000="left: 0%;">
-            </div>
-            <div class="contactbox" style="width: 100vw; height: 15vw;" data-71000="left:-110%; top:73.2%"
-                data-72000="left: 0%;">
-            </div>
-
-            <div class="contactbox" style="width: 100vw; height: 16.45vw;" data-71000="right:-110%; top:15%"
-                data-72000="right: 0%;">
-            </div>
-            <div class="contactbox" style="width: 100vw; height: 3.7vw;" data-71000="right:-110%; top:66.5%"
-                data-72000="right: 0%;">
-            </div>
-            <!-- <div class="contactbox" style="width: 36.9vw; height: 100vw;" data-73000="left:0%; top:100%;" data-74000="top: 0%;">
-            </div>
-            <div class="contactbox" style="width: 36.9vw; height: 100vw;" data-73000="right:0%; top:-190%;" data-74000="top: 0%;">
+            <!-- <div class="skillbox" data-63000="opacity: 0%; left: 50%; top:50%; transform: translate(-50%, -50%);"
+                data-64000="right: 20%; opacity:80%;" data-69000="right: 20%; opacity:80%;" data-70000="top:-20%;">
+                <img src="./assets/img/react.png" alt="logo">
+                <p>React</p>
             </div> -->
 
-            <video style="position: fixed;" autoplay loop
-                data-71000="height:30vh; left:150%; top:30%; transform:translate(-50%, -50%)" data-72000="left:50%">
+            <!-- Contact -->
+            <div class="contactbox" style="width: 100vw; height: 15.5%;" data-71000="left:-110%" data-72000="left: 0%;">
+            </div>
+            <div class="contactbox" style="width: 100vw; height: 21%;" data-71000="left:-110%; top:45%"
+                data-72000="left: 0%;">
+            </div>
+            <div class="contactbox" style="width: 100vw; height: 28%;" data-71000="left:-110%; top:73.2%"
+                data-72000="left: 0%;">
+            </div>
+
+            <div class="contactbox" style="width: 100%; height: 30%;" data-71000="right:-110%; top:15%"
+                data-72000="right: 0%;">
+            </div>
+            <div class="contactbox" style="width: 100%; height: 7.5%;" data-71000="right:-110%; top:65.7%"
+                data-72000="right: 0%;">
+            </div>
+
+            <!-- <video style="position: fixed;" autoplay loop
+                data-71000="height:30%; left:150%; top:30%; transform:translate(-50%, -50%)" data-72000="left:50%">
                 <source src="./assets/img/2.webm" type="video/webm">
-            </video>
+            </video> -->
+            <lottie-player src="./assets/json/mail.json" autoplay loop style="position: fixed;"
+                data-71000="height:50%; left:150%; top:26%; transform:translate(-50%, -50%)" data-72000="left:50%">
+            </lottie-player>
 
             <h1 class="f2" style="position: fixed; color: #fff; width: 100%; text-align: center;"
                 data-71000="font-size: 5vw; left: 150%; top:70%; transform:translate(-50%, -50%);"
-                data-72000="left:50%">Focus <span class="f1 va">on</span> Contact</h1>
+                data-72000="left:50.5%">Focus <span class="f1 va">on</span> Contact</h1>
             <span class="f3" style="position: fixed; text-align: right; line-height: 1vw; color: #fff;"
-                data-72000="font-size:0vw;opacity:0%;left:100%; top:10%"
+                data-72000="font-size:0vw;opacity:0%;left:100%; top:80%"
                 data-73000="font-size:1vw;opacity:100%;left:92%">Folio<br>Vol.1 -&nbsp;&nbsp;</span>
             <span class="f3" style="position: fixed; color: #fff;"
-                data-72000="font-size:0vw;opacity:0%;left:0%; top:10%"
+                data-72000="font-size:0vw;opacity:0%;left:0%; top:80%"
                 data-73000="font-size:1vw;opacity:100%;left:5%">Open for any<br>collaborations and
                 offers</span>
+            <!-- <div style="position: fixed;width: 100%; text-align: center;"
+                data-73000="left: -50%; top:25%; transform:translate(-50%, -50%);" data-74000="left:50.5%">
+                <p id="mail" class="f2" style="color: #fff; font-size: 3vw; position: absolute; left: 20%; top: 50%; transform:translate(-50%, -50%);"
+                    data-split="leeno0404@naver.com">leeno0404@naver.com</p>
+            </div> -->
+            <h1 class="f2" style="position: fixed; color: #fff; text-align: center;"
+                data-73000="width: 0vw; font-size: 0vw; left: 50%; top:55%; transform:translate(-50%, -50%);"
+                data-74000="width: 100vw; font-size: 3vw;">leeno0404@naver.com</h1>
+
+            <div style="position: fixed; height: 0.3vw; background-color: #fff; left: 61.5%; top:75%; transform:translate(-50%, -50%);"
+                data-73000="width: 0vw;" data-74000="width: 17.3vw;"></div>
         </section>
     </section>
     <div class="progress" id="progress">
