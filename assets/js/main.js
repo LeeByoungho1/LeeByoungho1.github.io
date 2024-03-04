@@ -195,6 +195,14 @@ $(window).on("scroll", function () {
   } else {
     $("#a2").css({"pointer-events": "none"})
   }
+
+  if (scroll < 48000) {
+    $("#a3").css({"pointer-events": "none"})
+  } else if (scroll < 52000) {
+    $("#a3").css({"pointer-events": "auto"})
+  } else {
+    $("#a3").css({"pointer-events": "none"})
+  }
 })
 
 document.addEventListener('mousemove', (e) => {

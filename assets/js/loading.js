@@ -20,7 +20,7 @@ var $container = $("#progress"),
 
 	function updateProgress (){
 		// 100으로 맞춰주세요.
-		var target = (imgLoaded/imgTotal) *100;
+		var target = (imgLoaded/imgTotal) * 100;
 
 		current += (target -current) * 0.03;
 
